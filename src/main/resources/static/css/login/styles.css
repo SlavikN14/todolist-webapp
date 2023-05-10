@@ -1,0 +1,64 @@
+body {
+  font-family: "Space Grotesk", sans-serif;
+  height: 100vh;
+  margin: 0;
+  background-image: url(./resources/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+
+.register-card {
+  position: relative;
+  z-index: 3;
+  width: 50%;
+  max-width: 450px;
+  margin: 0 20px;
+  padding: 70px 40px 40px 40px;
+  border-radius: 30px;
+  background: #fff;
+  text-align: center;
+}
+.register-card > h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+
+.register-form {
+  width: 100%;
+  margin: 0;
+  display: grid;
+  gap: 16px;
+}
+.register-form > input, .register-form > button {
+  height: 50px;
+  padding: 0 16px;
+  font-family: inherit;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: all 0.375s ease;
+}
+.register-form > input {
+  width: calc(100% - 38px);
+  border: 3px solid #ebebeb;
+}
+.register-form > input:hover {
+  border-color: #600180;
+}
+.register-form > input:focus {
+  outline: none;
+  border-color: #600180;
+}
+.register-form > button {
+  width: 100%;
+  cursor: pointer;
+  background: #C84BF2;
+  color: #fff;
+  border: 0px;
+}
+.register-form > button:hover {
+  background: #8605F0;
+}/*# sourceMappingURL=styles.css.map */

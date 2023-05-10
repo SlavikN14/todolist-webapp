@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/css/registration/styles.css">
+    <title>Registration page</title>
+</head>
+<body>
+    <div class="register-card">
+        <h2>Register</h2>
+    <form class="register-form" action="/regPage" method="post">
+        <input placeholder="Email" type="email" name="email" id="email-for-registration">
+        <input placeholder="Name" name = "name" type="text">
+        <input placeholder="Password" type="password" name="password" id="">
+        <button type="submit">Submit</button>
+    </form>
+    <div>
+        <br> 
+        <span>Already have an account? </span>
+        <a href="/login">Login</a>
+    </div>
+</div>
+</body>
+</html>
